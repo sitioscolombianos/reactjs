@@ -1,0 +1,2 @@
+(this.webpackJsonpSitiosColombianos=this.webpackJsonpSitiosColombianos||[]).push([[7],{47:function(s,a,n){"use strict";n.r(a);var e=n(3),t=(n(0),n(13));a.default=function(){return Object(e.jsx)("nav",{className:"navbar container__navbar",children:Object(e.jsx)("div",{className:"container",children:Object(e.jsx)(t.b,{className:"navbar-brand text-center",to:"/",children:Object(e.jsx)("img",{src:"./images/logo.svg",alt:"Open English logo"})})})})}}}]);
+//# sourceMappingURL=7.fe898368.chunk.js.map
