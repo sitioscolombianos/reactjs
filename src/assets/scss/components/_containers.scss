@@ -1,0 +1,143 @@
+section {
+    width: 100%!important;
+}
+
+.container__navbar {
+    height: 79px;
+}
+
+
+.container__love {
+
+    background-color: $yellow-bg;
+    height: 60px;
+    text-align: center;
+
+    p {
+        color: $blue-text;
+        font-size: 28px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding-top: 6px;
+        
+        span {
+            padding-right: 20px;
+            vertical-align: middle;
+            font-weight: 800;
+        }
+    }
+}
+
+
+.container__banner {
+    background: rgb(0,88,182);
+    background: linear-gradient(128deg, $blue-gr-t 0%, $blue-gr-b 100%);
+    background-image: url('/assets/images/banner/banner_op.svg');
+    background-position: center;
+
+    height: 584px;
+    padding-top: 55px;
+    text-align: center;
+
+    .container {
+        .row {
+            padding: 25px 0;
+        }
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+
+        &.txt-white-t {
+            color: $white;
+            font-size: 28px;
+            font-weight: 600;
+        }
+        
+        &.txt-white-b {
+            color: $white;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 30px;
+            padding-bottom: 15px;
+        }
+
+        &.txt-yellow-t {
+            color: $yellow-text;
+            font-size: 47px;
+            font-weight: 700;
+            line-height: 45px;
+            padding: 15px 0;
+            text-transform: uppercase;
+        }       
+        &.txt-yellow-b {
+            color: $yellow-text;
+            font-size: 34px;
+            font-weight: 700;
+            line-height: 45px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.container__cards {
+
+    padding: 70px 0;
+
+    .ccard {
+        text-align: center;
+        height: 297px;
+
+        &.central {
+            border-left: 2px solid $sky;
+            border-right: 2px solid $sky;
+        }
+        
+        img {
+            height: 90px;
+        }
+        
+        h3 {
+            color: $black;
+            font-size: 30px;
+            padding: 30px 0 15px 0;
+            font-weight: 800;
+        }
+        
+        p {
+            color: $paragraph;
+            font-size: 24px;
+            padding: 0;
+        }
+    }
+}
+
+
+.container__slide {
+    background-color: $sky;
+    padding-top: 75px;
+    padding-bottom: 70px;
+
+    .col3 {
+        margin: 12px;
+    }
+
+    p {
+        font-size: 28px;
+        color: $black;
+        text-align: center;
+        padding: 40px 60px 0px 60px;
+
+        span {
+            color: $link;
+            font-weight: 800;
+        }
+    }
+
+    img {
+        border-radius: 6px;
+        box-shadow: 0 0 50px #00000033;
+    }
+}
+

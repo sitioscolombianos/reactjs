@@ -1,0 +1,2 @@
+(this.webpackJsonpSitiosColombianos=this.webpackJsonpSitiosColombianos||[]).push([[4],{51:function(s,e,c){"use strict";c.r(e);var i=c(3);c(0);e.default=function(){return Object(i.jsx)("section",{className:"container__love",children:Object(i.jsx)("div",{className:"container",children:Object(i.jsx)("div",{className:"row",children:Object(i.jsx)("div",{className:"col",children:Object(i.jsxs)("p",{children:[Object(i.jsx)("span",{children:"I love this planeta!"}),Object(i.jsx)("button",{children:"CLICK HERE!"})]})})})})})}}}]);
+//# sourceMappingURL=4.85f54e63.chunk.js.map

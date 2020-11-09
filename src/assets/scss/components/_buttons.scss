@@ -1,0 +1,50 @@
+.container__love,
+.container__banner {
+    button {
+        background-color: $orange;
+        background: linear-gradient(180deg, $orange-gr-t 0%, $orange-gr-b 100%);
+        border:none;
+        color: $white;
+        outline:none;
+        padding: 11px;
+    }
+}
+
+
+.container__love
+{
+    button {
+        border-radius: 25px;
+        border: 1px solid $orange;
+        font-size: 18px;
+        font-weight: 700;
+        height: 45px;
+        line-height: 1px;
+        width: 218px;
+    }
+}
+.container__banner {
+    button {
+        border-radius: 50px 50px;
+        box-shadow: 0 0 15px #00000021;
+        font-size: 30px;
+        font-weight: 700;
+        height: 71px;
+        line-height: 0;
+        width: 396px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container__banner {
+        button {
+            width: 295px;
+        }
+
+        .video {
+            padding: 30px 0;
+        }        
+    }
+
+}
